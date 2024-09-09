@@ -15,15 +15,15 @@ namespace problem3
             int secretnumber = 37;// intger secretnumber = 37 
 
             if (number > secretnumber) {// if number  greater than secretnumber 
-                Console.WriteLine("Too high!");// if number greater than secretnumber it prints out "Too High"
+                Console.WriteLine("Too high!");// if number is greater than secretnumber it prints out "Too High"
                     }
             if (number < secretnumber) // if number less than secretnumber 
             {
-                Console.WriteLine("Too low!");// if number less than secretnumber print out "Too Low!"
+                Console.WriteLine("Too low!");// if number is less than secretnumber print out "Too Low!"
             }
             if (number == secretnumber) //if number equal to secretnumber  
             {
-                Console.WriteLine("Correct!"); //if number equal to secretnumber  then it prints out "Correct"
+                Console.WriteLine("Correct!"); //if number is equal to secretnumber  then it prints out "Correct"
             }
         }
     }
